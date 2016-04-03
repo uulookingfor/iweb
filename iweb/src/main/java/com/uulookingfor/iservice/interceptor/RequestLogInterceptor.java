@@ -8,6 +8,9 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import com.uulookingfor.icommon.IwebLogger;
 import com.uulookingfor.iutil.GsonUtil;
 
+/**
+ * @author suxiong.sx 
+ */
 public class RequestLogInterceptor extends HandlerInterceptorAdapter{
 
 	@Override
