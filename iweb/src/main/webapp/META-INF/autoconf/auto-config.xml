@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config description="自动配置">
+    <group name="iweb-war">
+        <property name="production.mode" description="是否开启开发者模式" defaultValue="true"/>
+        <property name="com.uulookingfor.iweb.logs" description="日志目录" defaultValue="D:/log"/>
+    </group>
+
+    <script>
+    
+        <generate template="WEB-INF/logback.xml" />
+        
+    </script>
+</config>
